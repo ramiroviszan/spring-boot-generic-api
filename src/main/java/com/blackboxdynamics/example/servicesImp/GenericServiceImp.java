@@ -1,6 +1,7 @@
 package com.blackboxdynamics.example.servicesImp;
 
 import com.blackboxdynamics.example.entities.IEntity;
+import com.blackboxdynamics.example.entities.Log;
 import com.blackboxdynamics.example.services.GenericService;
 import com.blackboxdynamics.example.repositories.GenericRepository;
 import com.blackboxdynamics.example.services.ServiceException;
@@ -9,10 +10,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.domain.Sort.Order;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 import java.util.Optional;
 
 @Service

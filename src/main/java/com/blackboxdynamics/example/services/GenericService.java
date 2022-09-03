@@ -1,5 +1,6 @@
 package com.blackboxdynamics.example.services;
 
+import com.blackboxdynamics.example.entities.Log;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Sort;
 
@@ -11,4 +12,5 @@ public interface GenericService<I, T> {
     T create(T entity) throws ServiceException;
     T update(I id, T entity);
     void delete(I id);
+
 }
